@@ -25,7 +25,9 @@ hr.pub-dark,
 hr.proj-light,
 hr.proj-dark,
 hr.soft-light,
-hr.soft-dark {
+hr.soft-dark,
+hr.memb-light,
+hr.memb-dark{
   max-width: 15rem;
   padding: 0;
   text-align: center;
@@ -44,7 +46,9 @@ hr.pub-dark:after,
 hr.proj-light:after,
 hr.proj-dark:after,
 hr.soft-light:after,
-hr.soft-dark:after {
+hr.soft-dark:after,
+hr.memb-light:after,
+hr.memb-dark:after {
   position: relative;
   top: -.8em;
   display: inline-block;
@@ -74,17 +78,24 @@ hr.soft-dark:after {
   content: '\f1c0';
 }
 
+hr.memb-light:after,
+hr.memb-dark:after {
+  content: '\f2bd';
+}
+
 hr.dna-light,
 hr.pub-light,
 hr.proj-light,
-hr.soft-light {
+hr.soft-light,
+hr.memb-light{
   border-color: #fff;
 }
 
 hr.dna-light:after,
 hr.pub-light:after,
 hr.proj-light:after,
-hr.soft-light:after {
+hr.soft-light:after,
+hr.memb-light:after{
   color: #fff;
   background-color: #2988BC;
 }
@@ -92,14 +103,16 @@ hr.soft-light:after {
 hr.dna-dark,
 hr.pub-dark,
 hr.proj-dark,
-hr.soft-dark {
+hr.soft-dark,
+hr.memb-dark {
   border-color: #2F496E;
 }
 
 hr.dna-dark:after,
 hr.pub-dark:after,
 hr.proj-dark:after,
-hr.soft-dark:after {
+hr.soft-dark:after,
+hr.memb-dark:after{
   color: #2F496E;
   background-color: white;
 }
