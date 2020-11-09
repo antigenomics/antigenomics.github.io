@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Freelancer v5.0.0 (https://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2018 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
 
@@ -365,6 +365,32 @@ header.masthead h2 {
 
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef;
+}
+
+.member-profile {
+  text-align: center;
+  padding: 30px 10px;
+  position: relative;
+}
+
+.member-portrait-container {
+  padding-top: 90%;
+}
+
+.member-portrait {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .footer {
