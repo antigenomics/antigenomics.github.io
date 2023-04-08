@@ -1,4 +1,4 @@
-## ISA Group web page
+### ISA Group web page
 
 This repository hosts the home page of the Immunosequencing Algorithms Group (IBCh RAS, RNRMU and Skoltech, Moscow, Russia).
 
