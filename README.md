@@ -1,6 +1,6 @@
-### ISA Group web page
+### ISALAB web page
 
-This repository hosts the home page of the Immunosequencing Algorithms Group (IBCh RAS, RNRMU and Skoltech, Moscow, Russia).
+This repository hosts the home page of the Immunosequencing Algorithms Laboratory (IBCh RAS and RNRMU, Moscow, Russia).
 
 The web page design is based on [Freelancer theme](https://startbootstrap.com/template-overviews/freelancer/)  by Start Bootstrap.
 
